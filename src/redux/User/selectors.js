@@ -1,0 +1,1 @@
+export const getUserName = state => state.User.userInformation.name;

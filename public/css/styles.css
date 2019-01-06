@@ -1,0 +1,56 @@
+#layout {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #F52F41;
+}
+
+#layout-header{
+    color: white;
+    background-color: #273239;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+#layout-header .userName{
+    display: block;
+    float: left;
+}
+#layout-header .logout{
+    display: block;
+    text-align: end;
+    color: white !important;
+    cursor: pointer;
+}
+
+#form-login {
+    position: absolute;
+    width: 70%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#form-login label {
+    color: white;
+    font-size: 15px
+}
+
+#results-container {
+    overflow-y: auto;
+    height: 93%;
+    padding-bottom: 20px;
+    margin-top: 5px;
+}
+
+#results-container .card {
+    margin: 1em auto
+}
+
+#results-container .result-empty{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50%;
+    position: relative;
+}
